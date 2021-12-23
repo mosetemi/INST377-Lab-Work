@@ -40,3 +40,98 @@ body {
   font-family: ‘DejaVu Sans’;
   font-size: xx-large;
 }
+.submit-box {
+  background-color: rgb(223, 150, 252);
+  display: inline-block;
+  border-radius: 4px;
+  padding: 20px 10;
+  align-items: baseline;
+  width: 200px;
+}
+
+.questions {
+  justify-content: space-between;
+}
+
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row label {
+  margin-bottom: 15px;
+}
+
+.food-preference {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.food-preference label {
+  margin-bottom: 15px;
+}
+
+.legacy-form-row {
+  border: 10px;
+  margin-bottom: 20px;
+  align-items: center;}
+
+.legacy-form-row legend {
+ margin-bottom: 15px;
+}
+
+.legacy-form-row .radio-label {
+ display: block;
+ font-size: 14px;
+ padding: 0 20px 0 10px;
+}
+
+.legacy-form-row input[type='radio'] {
+margin-top: 2px;
+}
+
+.legacy-form-row .radio-label,
+.legacy-form-row input[type='radio'] {
+float: left;
+}
+
+.submit button {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #FFFFFF;
+  background-color: rgb(161, 47, 161);
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+  align-content: center;
+}
+
+.future {
+  background-color: rgb(223, 150, 252);
+  width: 700px;
+  align-content: center;
+  justify-content: center;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 5px;
+  margin: 20px 25px;
+}
+
+.submit-box .future {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+}
